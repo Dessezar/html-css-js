@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+color: $color-dark;
+font-family: papyrus;
+font-weight: 400;
+font-size: 16px; 
+/* 16 pixlar är standard, man använder px över pt för att det är lättare att utgå från pixlar när man designar.  */
+line-height: 15;
+}
