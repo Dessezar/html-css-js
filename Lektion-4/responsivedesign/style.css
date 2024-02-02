@@ -1,0 +1,49 @@
+/* general */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    padding: 15px;
+    border-bottom: 3px solid grey;
+    color: azure;
+}
+
+/* mobile */
+#mobile-menu{
+    background-color: black;
+}
+
+.mobile-collapse-menu{
+    text-align: right;
+}
+
+.mobile-collapse-menu .btn-close{
+    color: azure;
+    padding: 1rem;
+}
+
+.mobile-collapse-menu .btn-close:hover{
+    color: red;
+}
+
+
+
+nav{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    
+}
+.btn-close{
+    background-color: transparent;
+    border: none;
+    display: inline;
+    font-size: 1.5rem;
+    justify-content: end;
+    transition: color 0.5s ease-in-out;
+
+}
+/* tablets */
+
+/* large screens */
